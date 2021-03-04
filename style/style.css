@@ -2,8 +2,32 @@
   width: 80px;
   height: auto;
   border-radius: 50%;
+  transition: 4s;
+}
+
+.brand-img:hover {
+  transform: rotate(360deg);
 }
 
 .input-group .btn {
-  background-color: #dadd10;
+  background-color: #fff;
+  color:rgb(7, 7, 7);
+}
+
+.btn:hover {
+  color:rgb(129, 50, 50);
+  background-color:rgb(7, 7, 7);
+  transition:all 3s;
+}
+
+.navitem a {
+  color: #fff;
+  background-color: #333;
+}
+
+.navitem a:hover,
+.navitem a:focus {
+  color: #333;
+  background-color: rgb(129, 50, 50);
+  transition: all 2s ease-out;
 }
